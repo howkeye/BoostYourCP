@@ -10,8 +10,8 @@ We will soon be adding link of our project.
   We have used conda package manager, so req.txt is for conda. For,pip install respective packages.
 
 3. Go to desired location and make database using migration feature of Django. Use these commands -
-	python3 manage.py makemigrations
-	python3 manage.py migrate
+	> python3 manage.py makemigrations
+	> python3 manage.py migrate
 
 4. Start your local django server
 	python3 manage.py runserver
@@ -31,9 +31,9 @@ You can do it manually by
 1. For sending mail : ‘localhost:port/send’  has python3 function to send contest reminders.
          So, just open this page  and  ..TaDa .. You send alarms via mail.
 
-2.For daily fetching of Contest details : ‘localhost:port/codechef’ &&  ‘localhost:port/codeforces’   
-
-        So, just open this page  and  ..TaDa .. You updated your contest Data
+2.For daily fetching of Contest details : ‘localhost:port/codechef’ &&  ‘localhost:port/codeforces’ .  
+ 	So, just open this page  and  ..TaDa .. You updated your contest Data.
+	
 3. We have other cron jobs to do operations like leaderboard update and usr rating fenching.
  U can check urls.py and respective mapped functions to know about them  or wait for a couple of days....we will be updating it.
 
