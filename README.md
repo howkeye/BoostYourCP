@@ -10,8 +10,10 @@ We will soon be adding link of our project.
   We have used conda package manager, so req.txt is for conda. For,pip install respective packages.
 
 3. Go to desired location and make database using migration feature of Django. Use these commands -
-	> python3 manage.py makemigrations
-	> python3 manage.py migrate
+	'''
+	python3 manage.py makemigrations
+	python3 manage.py migrate
+	'''
 
 4. Start your local django server
 	python3 manage.py runserver
