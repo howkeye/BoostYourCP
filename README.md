@@ -25,6 +25,7 @@ We will soon be adding link of our project.
 
 8. Use your details, to access the database  by following link ‘localhost:port/admin’ in main page.
 
+#Other features:
 Some features like cron jobs can easily be done by uploading it in django server.
 You can do it manually by  
 1. For sending mail : ‘localhost:port/send’  has python3 function to send contest reminders.
@@ -32,7 +33,7 @@ You can do it manually by
 
 2.For daily fetching of Contest details : ‘localhost:port/codechef’ &&  ‘localhost:port/codeforces’   
 
-         So, just open this page  and  ..TaDa .. You updated your contest Data
+        So, just open this page  and  ..TaDa .. You updated your contest Data
 3. We have other cron jobs to do operations like leaderboard update and usr rating fenching.
  U can check urls.py and respective mapped functions to know about them  or wait for a couple of days....we will be updating it.
 
