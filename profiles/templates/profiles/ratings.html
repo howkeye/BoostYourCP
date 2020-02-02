@@ -1,0 +1,39 @@
+{% extends "profiles/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+        <h1>Recent Contests</h1>
+<br><hr>
+
+	
+	<h3><a class="article-content" >Codechef User ratings</a></h2><br>
+
+    {% for c in chefusers %}
+
+       
+        
+            <h2><a class="article-content" >{{ c.username }}</a></h2>
+            
+            <p class="article-content">Current Ratings : {{ c.currentrating }}</p>
+         
+        
+
+    {% endfor %}
+
+    <h3><a class="article-content" >Codeforces User ratings</a></h2><br>
+
+    {% for c in forceuser %}
+
+       
+        
+            <h2><a class="article-content" >{{ c.username }}</a></h2>
+            
+            <p class="article-content">Current Ratings : {{ c.currentrating }}</p>
+         
+        
+
+    {% endfor %}
+  
+
+
+{% endblock content %}
+
