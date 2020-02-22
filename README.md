@@ -1,7 +1,14 @@
+#Link to devfolio 
+https://devfolio.co/submissions/boostyourcp
+
+
+front-end of website             |  mails that we will get
+:-------------------------:|:-------------------------:
+![](https://i.imgur.com/sPsjDM3.png) |  ![](https://i.imgur.com/owOh3Am.jpg)
 # BoostYourCP
 
 This project is completely made in Django. 
-Due to internet issues in the workspace suring Hackathon, we are not able to deploy our Django project.
+Due to internet issues in the workspace during Hackathon, we are not able to deploy our Django project.
 We will soon be adding link of our project.
 
 1. Clone the repo in a local folder.
