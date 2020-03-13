@@ -1,7 +1,7 @@
 # packages in environment at /home/howkeye/anaconda3/envs/dj:
 #
 # Name                    Version                   Build  Channel
-_libgcc_mutex             0.1                        main  
+#_libgcc_mutex             0.1                        main  
 asgiref                   3.2.5                    pypi_0    pypi
 beautifulsoup4            4.8.2                    pypi_0    pypi
 bs4                       0.0.1                    pypi_0    pypi
@@ -20,7 +20,7 @@ libstdcxx-ng              9.1.0                hdf63c60_0
 ncurses                   6.2                  he6710b0_0  
 openssl                   1.1.1d               h7b6447c_4  
 pip                       20.0.2                   py38_1  
-python                    3.8.1                h0371630_1  
+#python                    3.8.1                h0371630_1  
 python-dateutil           2.8.1                    pypi_0    pypi
 pytz                      2019.3                   pypi_0    pypi
 readline                  7.0                  h7b6447c_5  
