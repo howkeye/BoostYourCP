@@ -1,1 +1,3 @@
-web: gunicorn hack.wsgi
+web: gunicorn hack.wsgi:application --log-file - --log-level debug
+python manage.py collectstatic --noinput
+manage.py migrate
