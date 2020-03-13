@@ -1,37 +1,120 @@
-# packages in environment at /home/howkeye/anaconda3/envs/dj:
-#
-# Name                    Version                   Build  Channel
-#_libgcc_mutex             0.1                        main  
-asgiref                   3.2.5                    pypi_0    pypi
-beautifulsoup4            4.8.2                    pypi_0    pypi
-bs4                       0.0.1                    pypi_0    pypi
-ca-certificates           2020.1.1                      0  
-certifi                   2019.11.28               py38_0  
-chardet                   3.0.4                    pypi_0    pypi
-django                    3.0.4                    pypi_0    pypi
-django-crispy-forms       1.9.0                    pypi_0    pypi
-icalendar                 4.0.4                    pypi_0    pypi
-idna                      2.9                      pypi_0    pypi
-ld_impl_linux-64          2.33.1               h53a641e_7  
-libedit                   3.1.20181209         hc058e9b_0  
-libffi                    3.2.1                hd88cf55_4  
-libgcc-ng                 9.1.0                hdf63c60_0  
-libstdcxx-ng              9.1.0                hdf63c60_0  
-ncurses                   6.2                  he6710b0_0  
-openssl                   1.1.1d               h7b6447c_4  
-pip                       20.0.2                   py38_1  
-#python                    3.8.1                h0371630_1  
-python-dateutil           2.8.1                    pypi_0    pypi
-pytz                      2019.3                   pypi_0    pypi
-readline                  7.0                  h7b6447c_5  
-requests                  2.23.0                   pypi_0    pypi
-setuptools                46.0.0                   py38_0  
-six                       1.14.0                   pypi_0    pypi
-soupsieve                 2.0                      pypi_0    pypi
-sqlite                    3.31.1               h7b6447c_0  
-sqlparse                  0.3.1                    pypi_0    pypi
-tk                        8.6.8                hbc83047_0  
-urllib3                   1.25.8                   pypi_0    pypi
-wheel                     0.34.2                   py38_0  
-xz                        5.2.4                h14c3975_4  
-zlib                      1.2.11               h7b6447c_3  
+alabaster==0.7.8
+apturl==0.5.2
+arrow==0.14.7
+asgiref==3.2.5
+asn1crypto==0.24.0
+astroid==1.6.0
+Babel==2.4.0
+beautifulsoup4==4.8.2
+bleach==2.1.2
+Brlapi==0.6.6
+bs4==0.0.1
+certifi==2019.11.28
+chardet==3.0.4
+cloudpickle==0.5.2
+command-not-found==0.3
+cryptography==2.1.4
+cupshelpers==1.0
+decorator==4.1.2
+defer==1.0.6
+distro-info===0.18ubuntu0.18.04.1
+Django==3.0.4
+django-crispy-forms==1.9.0
+docutils==0.14
+entrypoints==0.2.3.post1
+html5lib==0.999999999
+httplib2==0.9.2
+icalendar==4.0.4
+ics==0.6
+idna==2.9
+imagesize==0.7.1
+ipykernel==4.8.2
+ipython==5.5.0
+ipython-genutils==0.2.0
+isort==4.3.4
+jedi==0.11.1
+Jinja2==2.10
+jsonschema==2.6.0
+jupyter-client==5.2.2
+jupyter-core==4.4.0
+keyring==10.6.0
+keyrings.alt==3.0
+language-selector==0.1
+launchpadlib==1.10.6
+lazr.restfulclient==0.13.5
+lazr.uri==1.0.3
+lazy-object-proxy==1.3.1
+logilab-common==1.4.1
+louis==3.5.0
+macaroonbakery==1.1.3
+Mako==1.0.7
+MarkupSafe==1.0
+mccabe==0.6.1
+mistune==0.8.3
+nbconvert==5.3.1
+nbformat==4.4.0
+netifaces==0.10.4
+numpy==1.13.3
+numpydoc==0.7.0
+oauth==1.0.1
+olefile==0.45.1
+pandocfilters==1.4.2
+parso==0.1.1
+pexpect==4.2.1
+pickleshare==0.7.4
+Pillow==5.1.0
+prompt-toolkit==1.0.15
+protobuf==3.0.0
+psutil==5.4.2
+pycairo==1.16.2
+pycodestyle==2.3.1
+pycrypto==2.6.1
+pycups==1.9.73
+pyflakes==1.6.0
+Pygments==2.2.0
+pygobject==3.26.1
+pylint==1.8.3
+pymacaroons==0.13.0
+PyNaCl==1.1.2
+pyRFC3339==1.0
+python-apt==1.6.5+ubuntu0.2
+python-dateutil==2.8.1
+python-debian==0.1.32
+pytz==2019.3
+pyxdg==0.25
+PyYAML==3.12
+pyzmq==16.0.2
+QtAwesome==0.4.4
+qtconsole==4.3.1
+QtPy==1.3.1
+reportlab==3.4.0
+requests==2.23.0
+requests-unixsocket==0.1.5
+roman==2.0.0
+rope==0.10.5
+SecretStorage==2.3.1
+simplegeneric==0.8.1
+simplejson==3.13.2
+six==1.14.0
+soupsieve==2.0
+Sphinx==1.6.7
+spyder==3.2.6
+sqlparse==0.3.1
+system-service==0.3
+systemd-python==234
+TatSu==4.4.0
+testpath==0.3.1
+tornado==4.5.3
+traitlets==4.3.2
+ubuntu-drivers-common==0.0.0
+ufw==0.36
+unattended-upgrades==0.1
+urllib3==1.25.8
+usb-creator==0.3.3
+virtualenv==16.7.9
+wadllib==1.3.2
+wcwidth==0.1.7
+webencodings==0.5
+wrapt==1.9.0
+xkit==0.0.0
+zope.interface==4.3.2
