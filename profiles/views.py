@@ -7,6 +7,7 @@ import datetime
 from icalendar import Calendar, Event
 from datetime import datetime
 from pytz import UTC
+from django.core.serializers import serialize
 
 import requests,json
 requests.packages.urllib3.disable_warnings()
@@ -294,3 +295,16 @@ def ratings(request):
     }
 
     return render(request,'profiles/ratings.html',context)
+
+
+def api_codechef(request):
+    
+    response=serialize('json', CodechefContest.objects.all())
+        
+    return HttpResponse(response, content_type='text/json')
+
+def api_codeforce(request):
+    
+    response=serialize('json', CodeforceContest.objects.all())
+        
+    return HttpResponse(response, content_type='text/json')

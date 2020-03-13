@@ -34,5 +34,7 @@ urlpatterns = [
     path('announcements/', p_views.announcements,name="Announcements"),
     path('contests/', p_views.contests,name="contests"),
     path('get_ratings/',p_views.getuser,name="get_ratings"),
-    path('ratings/',p_views.ratings,name="ratings")
+    path('ratings/',p_views.ratings,name="ratings"),
+    path('api_codechef', p_views.api_codechef),
+    path('api_codeforce', p_views.api_codeforce)
 ]
