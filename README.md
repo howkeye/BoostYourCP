@@ -1,6 +1,9 @@
 # BoostYourCP
  A webapp to increase coding culture in our college.
  
+ ### Link  :   https://boostyourcp.herokuapp.com/ 
+
+ 
   ## What all it uses ?
   - Phython, Diango ,Postgresql, Rest API , icalender, 
   - Cron jobs
@@ -14,11 +17,6 @@
  - We will also be extenting it to a coding portal will have alot of interesting features.
  - Project is completely made in Django. 
  - Hosted at Heroku
-
- 
- 
-## Link 
-https://boostyourcp.herokuapp.com/
 
 
 ## How it works
