@@ -4,15 +4,15 @@
   ## what all it uses??
   - Phython, Diango ,Postgresql, Rest API , icalender, 
   - Cron jobs
-   - Heroku web hosting,Scraping
-  -Html, CSS (Bootstrap)
+  - Heroku web hosting, Scraping
+  - Html, CSS (Bootstrap)
  
  ## Features
  
  - Sends icalender files via mail. So, that user can add reminders about the upcoming coding contests on codechef and codeforces.
  - Provides API access to upcoming contests.
  - We will also be extenting it to a coding portal will have alot of interesting features.
- - project is completely made in Django. 
+ - Project is completely made in Django. 
  - Hosted at Heroku
 
  
