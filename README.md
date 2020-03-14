@@ -1,7 +1,7 @@
 # BoostYourCP
  A webapp to increase coding culture in our college.
  
-  ## what all it uses??
+  ## What all it uses ?
   - Phython, Diango ,Postgresql, Rest API , icalender, 
   - Cron jobs
   - Heroku web hosting, Scraping
