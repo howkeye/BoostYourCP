@@ -1,12 +1,20 @@
 # BoostYourCP
  A webapp to increase coding culture in our college.
  
+  ## what all it uses??
+  - Phython, Diango ,Postgresql, Rest API , icalender, 
+  - Cron jobs
+   - Heroku web hosting,Scraping
+  -Html, CSS (Bootstrap)
+ 
  ## Features
- 1. Sends icalender files via mail. So, that user can add reminders about the upcoming coding contests on codeche and codeforce.
- 2. We will also be extenting it to a coding portal will have alot of interesting features.
- 3. project is completely made in Django. 
- 4. Hosted at Heroku
- 5. Provides API access to upcoming contests.
+ 
+ - Sends icalender files via mail. So, that user can add reminders about the upcoming coding contests on codechef and codeforces.
+ - Provides API access to upcoming contests.
+ - We will also be extenting it to a coding portal will have alot of interesting features.
+ - project is completely made in Django. 
+ - Hosted at Heroku
+
  
  
 ## Link 
@@ -14,6 +22,12 @@ https://boostyourcp.herokuapp.com/
 
 
 ## How it works
+
+1. Scraps the required data from coding sites daily,uses Cron Job scheduler.
+2. We are using api of codeforces to get desired data.
+3. Then we Send email using a python cron script, to send mail.
+4. Have to make a user id on the app to use it.
+5. Can select from what all sites, user wants to participate.
 
 
 
