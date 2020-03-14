@@ -5,8 +5,7 @@ This project is completely made in Django.
 #deployed at Heroku
 https://boostyourcp.herokuapp.com/
 
-#Link to devfolio 
-https://devfolio.co/submissions/boostyourcp
+
 
 
 
